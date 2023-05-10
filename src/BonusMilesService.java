@@ -1,13 +1,13 @@
 public class BonusMilesService {
 
     public int calculate(int price) {
-        int mile_quantity; // количество начисленных миль
-        int mile_cost = 20; // стоимость мили в рублях
+        int mileQuantity; // количество начисленных миль
+        int mileCost = 20; // стоимость мили в рублях
         if (price > 0) {
-            mile_quantity = price / mile_cost;
+            mileQuantity = price / mileCost;
         } else {
-            mile_quantity = 0;
+            mileQuantity = 0;
         }
-        return mile_quantity;
+        return mileQuantity;
     }
 }
